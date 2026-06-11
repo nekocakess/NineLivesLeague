@@ -1,6 +1,6 @@
 {
 	"Name": "Nine Lives League",
-	"Version": 1781148568,
+	"Version": 1781150207,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "",
 	"Tiers": [
@@ -73,6 +73,7 @@
 				"113",
 				"260",
 				"114",
+				"115",
 				"302",
 				"116",
 				"305",
@@ -800,8 +801,15 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				0,
+				1,
+				2,
+				5
+			],
+			"KillerOfferings": [
+				5
+			]
 		},
 		{
 			"Name": "The Hag",
@@ -944,13 +952,40 @@
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
 				},
 				"Med-Kit": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
 				},
 				"Toolbox": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
 				},
 				"Key": {
 					"Addons": []
@@ -962,8 +997,15 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				0,
+				1,
+				2,
+				4
+			],
+			"KillerOfferings": [
+				5
+			]
 		},
 		{
 			"Name": "The Huntress",
@@ -1472,9 +1514,17 @@
 			"KillerIndvPerkBans": [],
 			"KillerComboPerkBans": [],
 			"SurvivorIndvPerkBans": [
-				"58"
+				"246",
+				"58",
+				"96",
+				"103"
 			],
-			"SurvivorComboPerkBans": [],
+			"SurvivorComboPerkBans": [
+				[
+					"63",
+					"64"
+				]
+			],
 			"SurvivorWhitelistedPerks": [],
 			"SurvivorWhitelistedComboPerks": [],
 			"KillerWhitelistedPerks": [],
@@ -1669,7 +1719,9 @@
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
 			"KillerComboPerkBans": [],
-			"SurvivorIndvPerkBans": [],
+			"SurvivorIndvPerkBans": [
+				"53"
+			],
 			"SurvivorComboPerkBans": [],
 			"SurvivorWhitelistedPerks": [],
 			"SurvivorWhitelistedComboPerks": [],
@@ -2520,8 +2572,15 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				0,
+				1,
+				2,
+				5
+			],
+			"KillerOfferings": [
+				5
+			]
 		},
 		{
 			"Name": "The Nemesis",
@@ -2906,7 +2965,7 @@
 				0,
 				1,
 				2,
-				4
+				5
 			],
 			"KillerOfferings": [
 				5
